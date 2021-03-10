@@ -60,7 +60,7 @@ html, body {
   width: 100%;
   padding: 0;
   margin: 0;
-  background: url(images/bricks_bg.jpg)
+  background: url(images/tf-_photocopy_03.jpg)
     center center fixed no-repeat;
     background-size: cover;
 	
@@ -69,60 +69,68 @@ html, body {
 
 .center {
     width: 800px;
-	padding: 2%;
+	padding: 3%;
     margin: 100px auto;
- 	background: rgba(0, 150, 178, .75); /*this uses opacity of 75% for the background color*/
+ 	background: rgba(251, 251, 250); /*this uses opacity of 75% for the background color*/
 	text-align: center;
-	border: 4px dashed white;
+	border: 2px solid black;
 }
 
    
 #logo {
-    margin-bottom: 16px;
-	border: 3px dashed red;
+    margin-top: 10px;
+    margin-bottom: 5em;
+    width: 200px;
 	text-align: center;
 }
 
 h1 {
 	/* FONT-FAMILY GOES HERE CHOOSE FROM ADOBE FONTS OR GOOGLE FONTS */
     font-family: ivypresto-display,serif;
-    font-weight: 400;
-    font-style: normal;
+    font-weight: 100;
+    font-style: italic;
 	font-size: 2em;
     margin: 0px auto 10px auto;
-    color: #fff;
+    color: #000000;
 }
 
 h2 {
 	 /* FONT-FAMILY GOES HERE CHOOSE FROM ADOBE FONTS OR GOOGLE FONTS */
-    font-family: ivypresto-display,serif;
-    font-weight: 400;
-    font-style: normal;
+   font-family: ivypresto-display, serif;
+    font-weight: 100;
+    font-style: italic;
 	font-size: 1.5em;
+    letter-spacing: .5px;
     line-height: 1.4;
-    color: #fff;
+    color: #000000;
     padding: 0px 0px;
-    margin: 0px auto 25px auto;
+    margin: 0px auto 5px auto;
 }
 
 p {
-	/* FONT-FAMILY GOES HERE CHOOSE FROM ADOBE FONTS OR GOOGLE FONTS */		;
-	font-size: 1.2em;
+	/* FONT-FAMILY GOES HERE CHOOSE FROM ADOBE FONTS OR GOOGLE FONTS */	
+    font-family: acumin-pro,sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    text-transform: uppercase;
+	font-size: .9em;
     line-height: 1.6;
-    color: #fff;
+    color: #000000;
+    margin: 0px auto 5px auto;
 }
     
 nav {
-    font-family: ivypresto-display,serif;
+     font-family: acumin-pro,sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 1.2em;
+    text-transform: uppercase;
+    font-size: 1em;
     width: 400px;
     margin: 0 auto;
-    border: dashed turquoise;
-    border-width: 3px 0;
+    border: solid black;
+    border-width: .1em 0;
     text-align: center;
-    margin-top: 2em;
+    margin-top: 6em;
 }
 
 nav li{
@@ -135,12 +143,12 @@ nav a{
 }
 
 a {
-    color: ghostwhite;
+    color: #000000;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: 400;
+    letter-spacing: 2px;
 }
 
 a:hover {
-    color: black;
-    background: ghostwhite;
+    color: #a8bf8a;
 }
